@@ -1,0 +1,47 @@
+.professor-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    border: 1px solid #eaeaea;
+    border-radius: 12px;
+    padding: 24px;
+    background: #fff;
+    margin-bottom: 32px;
+}
+
+.professor-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.professor-box img {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    object-fit: cover;
+}
+
+.professor-box h2 { font-family: 'PCP-Bold'; margin: 0; }
+
+.professor-info {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    column-gap: 16px;
+    row-gap: 8px;
+    align-items: start;
+    margin: 0; 
+}
+
+.professor-info dt {
+    font-family: 'PCP-Bold';
+    margin: 0;
+    line-height: 1.6;
+}
+
+.professor-info dd { margin: 0; line-height: 1.6; }
+.professor-info ul { margin: 0; padding-left: 18px; }
