@@ -4,7 +4,7 @@ import useTitle from '../hooks/useTitle'
 import '../styles/member.scss'
 
 export default function Members() {
-    useTitle('Member | DATABASE LAB')
+    useTitle('MEMBER | DATABASE LAB')
     return (
         <section className="container">
             <h1>지도교수</h1>

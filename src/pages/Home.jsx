@@ -17,7 +17,7 @@ const heroVariants = {
 }
 
 export default function Home() {
-    useTitle('DATABASE LAB')
+    useTitle('HOME | DATABASE LAB')
     
     const cardAnimation = {
         animate: { x: ['0%', '-143%'] },
